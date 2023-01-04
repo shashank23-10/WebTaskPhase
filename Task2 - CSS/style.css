@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.topbar {
+  background-color: rgb(255, 225, 0);
+}
+.topbar .standard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: black;
+  font-size: 1.5rem;
+}
+
+/* Menu Bar */
+.standard .menu {
+  display: flex;
+}
+.menu .logo {
+  padding-top: 0.5rem;
+  width: 50vh;
+}
+.menu .menu2 ul {
+  display: flex;
+  padding: 0.5rem 3rem;
+}
+.menu .menu2 ul li {
+  padding: 0rem 2rem;
+  width: 23vh;
+}
+.menu .menu2 ul li a {
+  color: rgb(38, 5, 252);
+}
+
+/* Banner */
+.banner1 img {
+  background-size: cover;
+  width: 100%;
+}
+
+/* Main Body */
+.standard {
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.standard .blocks {
+  background-color: gray;
+  color: white;
+  margin: 2rem 2rem;
+}
+
+/*Footer*/
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .standard {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
